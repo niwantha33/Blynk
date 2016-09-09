@@ -6,18 +6,18 @@ Sample codes for Blynk virtual pins
 
 This is to initilizing of Blynk connection with the Blynk server 
 
-#define BLYNK_PRINT Serial        // Comment this out to disable prints and save space
-#include <ESP8266WiFi.h>
-#include <BlynkSimpleEsp8266.h>
+define BLYNK_PRINT Serial        // Comment this out to disable prints and save space
+include <ESP8266WiFi.h>
+include <BlynkSimpleEsp8266.h>
 
 # Setting up of DHT sensor
 
 You can use any DHT sensor, library avaialble at github ( Thanks ) 
 
 
-#include "DHT.h"
-#define DHTPIN 5     // pin D1 in Original Board 
-#define DHTTYPE DHT11   // DHT 11
+include "DHT.h"
+define DHTPIN 5     // pin D1 in Original Board 
+define DHTTYPE DHT11   // DHT 11
 DHT dht(DHTPIN, DHTTYPE);
 
 # Global data setting
